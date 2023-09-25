@@ -1,0 +1,8 @@
+{
+  "@jupyterlite/webrtc-docprovider:plugin": {
+    "disabled": false,
+    "signalingUrls": [
+      "wss://y-webrtc-eu.fly.dev",
+    ]
+  }
+}
