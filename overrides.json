@@ -1,6 +1,12 @@
 {
   "@jupyterlab/apputils-extension:themes": {
     "theme": "JupyterLab Dark"
+  },
+  "@jupyterlite/webrtc-docprovider:plugin": {
+    "disabled": false,
+    "signalingUrls": [
+      "wss://y-webrtc-eu.fly.dev"
+    ]
   }
 }
 
