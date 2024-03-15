@@ -48,7 +48,7 @@ def display_options(options, correct_option= "", correct_index = None):
     
     result = f"""
     <ol>
-    {"\n".join([f"<li>{option}</li>" for option in options])}
+    {" ".join([f"<li>{option}</li>" for option in options])}
     </ol>
     {collapsible(correct_option) if correct_option else ""}
     """
